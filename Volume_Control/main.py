@@ -5,7 +5,7 @@ import numpy as np
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
-import hand_tracking_module as htm
+from Hand_Tacking import hand_tracking_module as htm
 
 def volume_bar(img, volume_percent):
     height, width, _ = img.shape

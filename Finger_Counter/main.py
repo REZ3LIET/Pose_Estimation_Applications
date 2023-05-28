@@ -3,7 +3,7 @@ import math
 import cv2 as cv
 import numpy as np
 
-import hand_tracking_module as htm
+from Hand_Tacking import hand_tracking_module as htm
 
 class FingerCounter:
     def __init__(self):

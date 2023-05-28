@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 
 from utils import get_fps
-from body_tracking_module import BodyPoseDetect
+from Body_Tracking.body_tracking_module import BodyPoseDetect
 
 class PushUpChecker:
     def __init__(self):
